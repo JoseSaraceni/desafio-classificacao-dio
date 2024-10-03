@@ -1,0 +1,54 @@
+h1 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    height: 10vh;       
+}
+
+.inputs {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    height: 10vh;       
+}
+
+#nome {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 10px;  
+    margin-bottom:10px;
+    margin-right: 10px;
+}
+
+#xp {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 10px;  
+    margin-bottom:10px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    height: 10vh;   
+}
+
+#classificar {
+    padding: 10px 20px; 
+    font-size: 16px;
+    background-color: lightblue; 
+    border-radius: 0.5rem;   
+    cursor: pointer;
+}
+
+#resultado {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    height: 10vh;       
+}
